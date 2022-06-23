@@ -20,7 +20,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest 
           pip install -e .
-      - name: Test with pytest
-        run: |
-          cd tests
-          pytest -v -s -We -p no:unraisableexception .
+#       - name: Test with pytest
+#         run: |
+#           cd tests
+#           pytest -v -s -We -p no:unraisableexception .
